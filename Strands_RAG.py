@@ -1,7 +1,11 @@
 # **Install Strands Agents SDK and tools** 
-# pip install strands-agents strands-agents-tools
+# pip install strands-agents strands-agents-tools 
+# or
+# uv init . 
+# uv add strands-agents strands-agents-tools
 # **Install the required dependency**
-# pip install 'strands-agents[anthropic]'
+# pip install 'strands-agents[anthropic]' or # uv add strands-agents[anthropic]
+# uv run Strands_RAG.py
 
 import os
 import logging
